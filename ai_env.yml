@@ -1,0 +1,23 @@
+name: ai_env
+channels:
+- auto
+- ankurankan 
+- conda-forge
+- anaconda
+- pytorch
+- defaults
+dependencies:
+- python=3.10
+- numpy
+- pandas
+- seaborn
+- matplotlib
+- seaborn
+- scikit-learn
+- pathlib
+- cpuonly
+- pytorch
+- pgmpy
+- pygraphviz
+- pip:
+  - python-chess
