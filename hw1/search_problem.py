@@ -156,7 +156,6 @@ class FoodCollectorProblem():
         print(node)
         
 def main():
-
     prob = FoodCollectorProblem(
         initial_agent_info=(1,1,'north', 3),
         N = 5,
